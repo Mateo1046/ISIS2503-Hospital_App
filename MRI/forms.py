@@ -6,16 +6,16 @@ class MRIForm(forms.ModelForm):
         model = MRI
         fields = [
             'cliente',
-            'value',
-            'unit',
-            'place',
+            'documento',
+            'fecha',
+            'descripcion',
             #'dateTime',
         ]
 
         labels = {
             'cliente' : 'Cliente',
+            'documento' : 'Documento',
             'fecha' : 'Fecha',
-            'hora' : 'Hora',
             'descripcion' : 'Descripcion',
             #'dateTime' : 'Date Time',
         }
