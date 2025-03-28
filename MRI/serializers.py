@@ -5,5 +5,5 @@ from . import models
 class MRISerializer(serializers.ModelSerializer):
 
     class Meta:
-        fields = ('id', 'variable', 'value', 'unit', 'place', 'time',)
+        fields = ('id', 'cliente', 'documento', 'fecha', 'descripcion', 'time',)
         model = models.MRI
